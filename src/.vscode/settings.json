@@ -1,0 +1,14 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/tadini/catkin_ws/devel/lib/python3/dist-packages",
+        "/home/tadini/bebop_ws/devel/lib/python3/dist-packages",
+        "/opt/ros/noetic/lib/python3/dist-packages",
+        "/home/tadini/catkin_ws/src/TadiniSDK/tadinisdk/src"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/tadini/catkin_ws/devel/lib/python3/dist-packages",
+        "/home/tadini/bebop_ws/devel/lib/python3/dist-packages",
+        "/opt/ros/noetic/lib/python3/dist-packages",
+        "/home/tadini/catkin_ws/src/TadiniSDK/tadinisdk/src"
+    ]
+}

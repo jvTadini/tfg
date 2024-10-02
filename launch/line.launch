@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch>
+    <node name="line_detect" pkg="tfg" type="line_detect_node.py"/>
+    <node name="pid" pkg="tfg" type="pid_node.py"/>
+    <node name="moviment" pkg="tfg" type="moviment_node.py"/>
+    <node name="central" pkg="tfg" type="central_control_node.py"/>
+</launch>

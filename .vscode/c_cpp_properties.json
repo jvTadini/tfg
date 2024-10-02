@@ -1,0 +1,32 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/tadini/catkin_ws/devel/include/**",
+        "/opt/ros/noetic/include/**",
+        "/home/tadini/bebop_ws/devel/include/**",
+        "/home/tadini/bebop_ws/src/bebop_autonomy/bebop_driver/include/**",
+        "/home/tadini/bebop_ws/src/vision_opencv/cv_bridge/include/**",
+        "/home/tadini/bebop_ws/src/fiducials/fiducial_slam/include/**",
+        "/home/tadini/bebop_ws/src/vision_opencv/image_geometry/include/**",
+        "/home/tadini/bebop_ws/src/raspicam_node/include/**",
+        "/home/tadini/bebop_ws/src/fiducials/stag_detect/include/**",
+        "/home/tadini/catkin_ws/src/tfg/include/**",
+        "/home/tadini/catkin_ws/src/turtlebot3_simulations/turtlebot3_fake/include/**",
+        "/home/tadini/catkin_ws/src/turtlebot3_simulations/turtlebot3_gazebo/include/**",
+        "/home/tadini/bebop_ws/src/vision_msgs/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}
