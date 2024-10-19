@@ -40,8 +40,8 @@ def calcular_reta_e_angulos(ponto_A, ponto_B):
     }
 
 # Exemplo de uso com os pontos fornecidos
-ponto_A = (199.7052, 362.7539, 12.2762)
-ponto_B = (270.0076, 312.1785, 10.7702)
+ponto_A = (-143.855820, 205.949341, 11.130083)
+ponto_B = (-32.630505, 240.117950, 22.637791)
 
 
 resultado = calcular_reta_e_angulos(ponto_A, ponto_B)

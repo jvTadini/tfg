@@ -26,6 +26,8 @@ class pidNode():
         self.center_x_controller.state = center_x
         self.angle_controller.state = angle
 
+        
+
 if __name__ == '__main__':
 
     node = pidNode()

@@ -85,7 +85,6 @@ class MovimentNode():
             self.lin_x = 0.7
         else: 
             self.lin_x = 2
-        #self.lin_x = v_max * (1 / (1 + math.exp(-1 * (self.distance_to_target_x - 4))))
         self.lin_z = (self.distance_to_target_y * self.lin_x) / self.distance_to_target_x
 
     def rotation_callback(self, data):
@@ -137,7 +136,7 @@ class MovimentNode():
         self.distance_to_target_pub.publish(self.distance_to_target_x)
 
         # se chegou na torre target
-        if self.distance_to_target_x < 0.5:
+        if self.distance_to_target_x < 1:
             self.next_torre_pub.publish(True)
 
     def start(self):
@@ -147,8 +146,9 @@ class MovimentNode():
         self.drone.offboard_gps_position(lat_setpoint = -22.4151394,
                                     long_setpoint = -45.4483685,
                                     alt_setpoint = 12.1466 + 5,
-                                    heading = 288.47,
+                                    heading = 237.66,
                                     precision_radius = 1)
+
         self.drone.delay(10)
         self.start_flag = True
         

@@ -10,7 +10,7 @@ class CentralControlNode():
     def __init__(self):
         rospy.init_node('Central_Node', anonymous=True)
 
-        self.df_torres = pd.read_csv("/home/tadini/catkin_ws/src/tfg/src/new/torres.csv")
+        self.df_torres = pd.read_csv("/home/tadini/catkin_ws/src/tfg/src/torres.csv")
 
         self.torre_number = 1
 

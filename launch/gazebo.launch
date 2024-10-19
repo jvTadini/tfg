@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <launch>
-
+  <arg name="world" default="edicao.world"/>
   <!-- Gazebo -->
   <arg name="gui" default="true"/>
   <include file="$(find gazebo_ros)/launch/empty_world.launch">
-    <arg name="world_name" value="$(find tfg)/worlds/runway.world"/>
+    <arg name="world_name" value="$(find tfg)/worlds/$(arg world)"/>
     <arg name="gui" value="$(arg gui)"/>
     <arg name="verbose" value="1"/>
   </include>

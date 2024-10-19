@@ -1,3 +1,4 @@
+<?xml version="1.0" ?>
 <sdf version='1.7'>
   <world name='default'>
     <light name='sun' type='directional'>
@@ -159,30 +160,10 @@
       <pose>0.106627 -1.22124 0 0 -0 0</pose>
     </model>
     <state world_name='default'>
-      <sim_time>1437 150000000</sim_time>
-      <real_time>21 246845872</real_time>
-      <wall_time>1727826221 959649150</wall_time>
-      <iterations>21133</iterations>
-      <model name='abccd'>
-        <pose>11.8808 78.2072 16.2192 -0 -1.35 -1.92</pose>
-        <scale>1 1 1</scale>
-        <link name='link'>
-          <pose>11.8808 78.2072 16.2192 -0 -1.35 -1.92</pose>
-          <velocity>0 0 0 0 -0 0</velocity>
-          <acceleration>0 0 0 0 -0 0</acceleration>
-          <wrench>0 0 0 0 -0 0</wrench>
-        </link>
-      </model>
-      <model name='abccdscds'>
-        <pose>32.3032 131.974 24.9399 0 -1.45 -1.94</pose>
-        <scale>1 1 1</scale>
-        <link name='link'>
-          <pose>32.3032 131.974 24.9399 0 -1.45 -1.94</pose>
-          <velocity>0 0 0 0 -0 0</velocity>
-          <acceleration>0 0 0 0 -0 0</acceleration>
-          <wrench>0 0 0 0 -0 0</wrench>
-        </link>
-      </model>
+      <sim_time>1775 210000000</sim_time>
+      <real_time>339 438813711</real_time>
+      <wall_time>1729346895 305509375</wall_time>
+      <iterations>338060</iterations>
       <model name='ground_plane'>
         <pose>0 0 0 0 -0 0</pose>
         <scale>1 1 1</scale>
@@ -203,114 +184,64 @@
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
-      <model name='resd'>
-        <pose>50.8695 241.04 30.016 -3.14159 -1.5649 -1.63061</pose>
-        <scale>1 1 1</scale>
-        <link name='link'>
-          <pose>50.8695 241.04 30.016 -3.14159 -1.5649 -1.63061</pose>
-          <velocity>0 0 0 0 -0 0</velocity>
-          <acceleration>0 0 0 0 -0 0</acceleration>
-          <wrench>0 0 0 0 -0 0</wrench>
-        </link>
-      </model>
       <model name='torrona'>
-        <pose>4.23252 59.6332 0 0 -0 0</pose>
+        <pose>-19.9351 59.8366 0 0 -0 0</pose>
         <scale>1 1 1</scale>
         <link name='link'>
-          <pose>4.23252 59.6332 0 0 -0 0</pose>
+          <pose>-19.9351 59.8366 0 0 -0 0</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
-      <model name='torrona_0'>
-        <pose>16.611 93.7986 8.23703 0 -0 0</pose>
+      <model name='torrona_clone'>
+        <pose>-76.9707 149.675 -1.1583 0 -0 0</pose>
         <scale>1 1 1</scale>
         <link name='link'>
-          <pose>16.611 93.7986 8.23703 0 -0 0</pose>
+          <pose>-76.9707 149.675 -1.1583 0 -0 0</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
-      <model name='torrona_1'>
-        <pose>45.065 167.192 17.4338 0 -0 0</pose>
+      <model name='torrona_clone_clone'>
+        <pose>-145.329 204.481 -1.1583 0 -0 0</pose>
         <scale>1 1 1</scale>
         <link name='link'>
-          <pose>45.065 167.192 17.4338 0 -0 0</pose>
+          <pose>-145.329 204.481 -1.1583 0 -0 0</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
-      <model name='torrona_2'>
-        <pose>53.7558 311.953 18.269 0 -0 0</pose>
+      <model name='torrona_clone_clone_clone'>
+        <pose>-34.103 238.625 10.3422 0 -0 0</pose>
         <scale>1 1 1</scale>
         <link name='link'>
-          <pose>53.7558 311.953 18.269 0 -0 0</pose>
+          <pose>-34.103 238.625 10.3422 0 -0 0</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
-      <model name='torrona_3'>
-        <pose>105.613 371.682 14.3516 0 -0 0</pose>
+      <model name='torrona_clone_clone_clone_clone'>
+        <pose>-57.8016 278.48 18.0276 0 -0 0</pose>
         <scale>1 1 1</scale>
         <link name='link'>
-          <pose>105.613 371.682 14.3516 0 -0 0</pose>
-          <velocity>0 0 0 0 -0 0</velocity>
-          <acceleration>0 0 0 0 -0 0</acceleration>
-          <wrench>0 0 0 0 -0 0</wrench>
-        </link>
-      </model>
-      <model name='torrona_4'>
-        <pose>177.09 336.784 0 0 -0 0.949565</pose>
-        <scale>1 1 1</scale>
-        <link name='link'>
-          <pose>177.09 336.784 0 0 -0 0.949565</pose>
-          <velocity>0 0 0 0 -0 0</velocity>
-          <acceleration>0 0 0 0 -0 0</acceleration>
-          <wrench>0 0 0 0 -0 0</wrench>
-        </link>
-      </model>
-      <model name='torrona_5'>
-        <pose>245.478 276.103 -1.49265 0 -0 0.758788</pose>
-        <scale>1 1 1</scale>
-        <link name='link'>
-          <pose>245.478 276.103 -1.49265 0 -0 0.758788</pose>
-          <velocity>0 0 0 0 -0 0</velocity>
-          <acceleration>0 0 0 0 -0 0</acceleration>
-          <wrench>0 0 0 0 -0 0</wrench>
-        </link>
-      </model>
-      <model name='torrona_6'>
-        <pose>315.671 173.776 17.5701 0 -0 0.736076</pose>
-        <scale>1 1 1</scale>
-        <link name='link'>
-          <pose>315.671 173.776 17.5701 0 -0 0.736076</pose>
-          <velocity>0 0 0 0 -0 0</velocity>
-          <acceleration>0 0 0 0 -0 0</acceleration>
-          <wrench>0 0 0 0 -0 0</wrench>
-        </link>
-      </model>
-      <model name='torrona_7'>
-        <pose>313.757 25.5239 0 0 -0 0</pose>
-        <scale>1 1 1</scale>
-        <link name='link'>
-          <pose>313.757 25.5239 0 0 -0 0</pose>
+          <pose>-57.8016 278.48 18.0276 0 -0 0</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
       <model name='unit_sphere'>
-        <pose>240.28 327.853 2.91659 -0.011538 -0.002189 -0.002732</pose>
-        <scale>1 1 1</scale>
+        <pose>-15.7463 239.568 22.6378 -0.016331 -0 0</pose>
+        <scale>0.115936 0.115936 0.115936</scale>
         <link name='link'>
-          <pose>240.28 327.853 2.91659 -0.011538 -0.002189 -0.002732</pose>
-          <velocity>0 0.36172 0 -0.72344 0 0</velocity>
-          <acceleration>0 -0 0 0 -0 0</acceleration>
-          <wrench>0 -0 0 0 -0 0</wrench>
+          <pose>-15.7463 239.568 22.6378 -0.016331 -0 0</pose>
+          <velocity>-0 0.36172 0 -0.72344 -0 -0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
       <light name='sun'>
@@ -319,7 +250,7 @@
     </state>
     <gui fullscreen='0'>
       <camera name='user_camera'>
-        <pose>216.422 289.789 20.048 0 0.595428 1.49575</pose>
+        <pose>-36.1825 235.667 70.7665 -3e-06 1.5698 3.04224</pose>
         <view_controller>orbit</view_controller>
         <projection_type>perspective</projection_type>
       </camera>
@@ -360,9 +291,9 @@
         <enable_wind>0</enable_wind>
         <kinematic>0</kinematic>
       </link>
-      <pose>4.23252 59.6332 0 0 -0 0</pose>
+      <pose>-40.4759 76.7097 0 0 -0 0</pose>
     </model>
-    <model name='torrona_0'>
+    <model name='torrona_clone'>
       <static>1</static>
       <link name='link'>
         <collision name='collision'>
@@ -398,26 +329,9 @@
         <enable_wind>0</enable_wind>
         <kinematic>0</kinematic>
       </link>
-      <pose>17.7812 92.9421 0 0 -0 0</pose>
+      <pose>-66.7488 132.619 0 0 -0 0</pose>
     </model>
-    
-    
-    <model name="torre_7">
-      <include>
-        <uri>model://torrona</uri>
-        <pose>270 310.103 -1.49265 0 -0 0.758788</pose>
-      </include>
-    </model>
-
-    <model name="torre_8">
-      <include>
-        <uri>model://torrona</uri>
-        <pose>315.671 173.776 17.5701 0 -0 0.736076</pose>
-      </include>
-    </model>
-    
-    
-    <model name='torrona_1'>
+    <model name='torrona_clone_clone'>
       <static>1</static>
       <link name='link'>
         <collision name='collision'>
@@ -453,9 +367,9 @@
         <enable_wind>0</enable_wind>
         <kinematic>0</kinematic>
       </link>
-      <pose>56.3175 148.778 0 0 -0 0</pose>
+      <pose>-145.329 204.481 -1.1583 0 -0 0</pose>
     </model>
-    <model name='torrona_2'>
+    <model name='torrona_clone_clone_clone'>
       <static>1</static>
       <link name='link'>
         <collision name='collision'>
@@ -491,9 +405,9 @@
         <enable_wind>0</enable_wind>
         <kinematic>0</kinematic>
       </link>
-      <pose>102.898 336.214 0 0 -0 0</pose>
+      <pose>-84.4186 254.435 -1.1583 0 -0 0</pose>
     </model>
-    <model name='torrona_3'>
+    <model name='torrona_clone_clone_clone_clone'>
       <static>1</static>
       <link name='link'>
         <collision name='collision'>
@@ -529,339 +443,10 @@
         <enable_wind>0</enable_wind>
         <kinematic>0</kinematic>
       </link>
-      <pose>105.608 349.068 0 0 -0 0</pose>
-    </model>
-    <model name='torrona_4'>
-      <static>1</static>
-      <link name='link'>
-        <collision name='collision'>
-          <geometry>
-            <mesh>
-              <scale>0.1 0.1 0.1</scale>
-              <uri>model://torrona/meshes/torrona.stl</uri>
-            </mesh>
-          </geometry>
-          <max_contacts>10</max_contacts>
-          <surface>
-            <contact>
-              <ode/>
-            </contact>
-            <bounce/>
-            <friction>
-              <torsional>
-                <ode/>
-              </torsional>
-              <ode/>
-            </friction>
-          </surface>
-        </collision>
-        <visual name='visual'>
-          <geometry>
-            <mesh>
-              <scale>0.1 0.1 0.1</scale>
-              <uri>model://torrona/meshes/torrona.stl</uri>
-            </mesh>
-          </geometry>
-        </visual>
-        <self_collide>0</self_collide>
-        <enable_wind>0</enable_wind>
-        <kinematic>0</kinematic>
-      </link>
-      <pose>165.375 354.966 0 0 -0 0</pose>
-    </model>
-    <model name='torrona_5'>
-      <static>1</static>
-      <link name='link'>
-        <collision name='collision'>
-          <geometry>
-            <mesh>
-              <scale>0.1 0.1 0.1</scale>
-              <uri>model://torrona/meshes/torrona.stl</uri>
-            </mesh>
-          </geometry>
-          <max_contacts>10</max_contacts>
-          <surface>
-            <contact>
-              <ode/>
-            </contact>
-            <bounce/>
-            <friction>
-              <torsional>
-                <ode/>
-              </torsional>
-              <ode/>
-            </friction>
-          </surface>
-        </collision>
-        <visual name='visual'>
-          <geometry>
-            <mesh>
-              <scale>0.1 0.1 0.1</scale>
-              <uri>model://torrona/meshes/torrona.stl</uri>
-            </mesh>
-          </geometry>
-        </visual>
-        <self_collide>0</self_collide>
-        <enable_wind>0</enable_wind>
-        <kinematic>0</kinematic>
-      </link>
-      <pose>240.182 283.435 0 0 -0 0</pose>
-    </model>
-    <model name='torrona_6'>
-      <static>1</static>
-      <link name='link'>
-        <collision name='collision'>
-          <geometry>
-            <mesh>
-              <scale>0.1 0.1 0.1</scale>
-              <uri>model://torrona/meshes/torrona.stl</uri>
-            </mesh>
-          </geometry>
-          <max_contacts>10</max_contacts>
-          <surface>
-            <contact>
-              <ode/>
-            </contact>
-            <bounce/>
-            <friction>
-              <torsional>
-                <ode/>
-              </torsional>
-              <ode/>
-            </friction>
-          </surface>
-        </collision>
-        <visual name='visual'>
-          <geometry>
-            <mesh>
-              <scale>0.1 0.1 0.1</scale>
-              <uri>model://torrona/meshes/torrona.stl</uri>
-            </mesh>
-          </geometry>
-        </visual>
-        <self_collide>0</self_collide>
-        <enable_wind>0</enable_wind>
-        <kinematic>0</kinematic>
-      </link>
-      <pose>295.481 203.484 0 0 -0 0</pose>
-    </model>
-    <model name='torrona_7'>
-      <static>1</static>
-      <link name='link'>
-        <collision name='collision'>
-          <geometry>
-            <mesh>
-              <scale>0.1 0.1 0.1</scale>
-              <uri>model://torrona/meshes/torrona.stl</uri>
-            </mesh>
-          </geometry>
-          <max_contacts>10</max_contacts>
-          <surface>
-            <contact>
-              <ode/>
-            </contact>
-            <bounce/>
-            <friction>
-              <torsional>
-                <ode/>
-              </torsional>
-              <ode/>
-            </friction>
-          </surface>
-        </collision>
-        <visual name='visual'>
-          <geometry>
-            <mesh>
-              <scale>0.1 0.1 0.1</scale>
-              <uri>model://torrona/meshes/torrona.stl</uri>
-            </mesh>
-          </geometry>
-        </visual>
-        <self_collide>0</self_collide>
-        <enable_wind>0</enable_wind>
-        <kinematic>0</kinematic>
-      </link>
-      <pose>313.757 25.5239 0 0 -0 0</pose>
-    </model>
-    <model name='abccd'>
-      <pose>11.8808 78.2072 16.2192 -0 -1.35 -1.92</pose>
-      <static>1</static>
-      <link name='link'>
-        <pose>0 0 0 0 -0 0</pose>
-        <visual name='visual'>
-          <geometry>
-            <cylinder>
-              <radius>0.1</radius>
-              <length>37.32</length>
-            </cylinder>
-          </geometry>
-          <material>
-            <script>
-              <name>Gazebo/Grey</name>
-              <uri>file://media/materials/scripts/gazebo.material</uri>
-            </script>
-          </material>
-          <pose>0 0 0 0 -0 0</pose>
-        </visual>
-        <collision name='collision'>
-          <geometry>
-            <cylinder>
-              <radius>0.1</radius>
-              <length>37.32</length>
-            </cylinder>
-          </geometry>
-          <pose>0 0 0 0 -0 0</pose>
-          <max_contacts>10</max_contacts>
-          <surface>
-            <contact>
-              <ode/>
-            </contact>
-            <bounce/>
-            <friction>
-              <torsional>
-                <ode/>
-              </torsional>
-              <ode/>
-            </friction>
-          </surface>
-        </collision>
-        <self_collide>0</self_collide>
-        <inertial>
-          <pose>0 0 0 0 -0 0</pose>
-          <inertia>
-            <ixx>1</ixx>
-            <ixy>0</ixy>
-            <ixz>0</ixz>
-            <iyy>1</iyy>
-            <iyz>0</iyz>
-            <izz>1</izz>
-          </inertia>
-          <mass>1</mass>
-        </inertial>
-        <enable_wind>0</enable_wind>
-        <kinematic>0</kinematic>
-      </link>
-    </model>
-    <model name='abccdscds'>
-      <pose>32.3032 131.974 24.9399 0 -1.45 -1.94</pose>
-      <static>1</static>
-      <link name='link'>
-        <pose>0 0 0 0 -0 0</pose>
-        <visual name='visual'>
-          <geometry>
-            <cylinder>
-              <radius>0.1</radius>
-              <length>79.16</length>
-            </cylinder>
-          </geometry>
-          <material>
-            <script>
-              <name>Gazebo/Grey</name>
-              <uri>file://media/materials/scripts/gazebo.material</uri>
-            </script>
-          </material>
-          <pose>0 0 0 0 -0 0</pose>
-        </visual>
-        <collision name='collision'>
-          <geometry>
-            <cylinder>
-              <radius>0.1</radius>
-              <length>79.16</length>
-            </cylinder>
-          </geometry>
-          <pose>0 0 0 0 -0 0</pose>
-          <max_contacts>10</max_contacts>
-          <surface>
-            <contact>
-              <ode/>
-            </contact>
-            <bounce/>
-            <friction>
-              <torsional>
-                <ode/>
-              </torsional>
-              <ode/>
-            </friction>
-          </surface>
-        </collision>
-        <self_collide>0</self_collide>
-        <inertial>
-          <pose>0 0 0 0 -0 0</pose>
-          <inertia>
-            <ixx>1</ixx>
-            <ixy>0</ixy>
-            <ixz>0</ixz>
-            <iyy>1</iyy>
-            <iyz>0</iyz>
-            <izz>1</izz>
-          </inertia>
-          <mass>1</mass>
-        </inertial>
-        <enable_wind>0</enable_wind>
-        <kinematic>0</kinematic>
-      </link>
-    </model>
-    <model name='resd'>
-      <pose>50.8695 241.04 30.016 -3.14159 -1.5649 -1.63061</pose>
-      <static>1</static>
-      <link name='link'>
-        <pose>0 0 0 0 -0 0</pose>
-        <visual name='visual'>
-          <geometry>
-            <cylinder>
-              <radius>0.1</radius>
-              <length>145.113</length>
-            </cylinder>
-          </geometry>
-          <material>
-            <script>
-              <name>Gazebo/Grey</name>
-              <uri>file://media/materials/scripts/gazebo.material</uri>
-            </script>
-          </material>
-          <pose>0 0 0 0 -0 0</pose>
-        </visual>
-        <collision name='collision'>
-          <geometry>
-            <cylinder>
-              <radius>0.1</radius>
-              <length>145.113</length>
-            </cylinder>
-          </geometry>
-          <pose>0 0 0 0 -0 0</pose>
-          <max_contacts>10</max_contacts>
-          <surface>
-            <contact>
-              <ode/>
-            </contact>
-            <bounce/>
-            <friction>
-              <torsional>
-                <ode/>
-              </torsional>
-              <ode/>
-            </friction>
-          </surface>
-        </collision>
-        <self_collide>0</self_collide>
-        <inertial>
-          <pose>0 0 0 0 -0 0</pose>
-          <inertia>
-            <ixx>1</ixx>
-            <ixy>0</ixy>
-            <ixz>0</ixz>
-            <iyy>1</iyy>
-            <iyz>0</iyz>
-            <izz>1</izz>
-          </inertia>
-          <mass>1</mass>
-        </inertial>
-        <enable_wind>0</enable_wind>
-        <kinematic>0</kinematic>
-      </link>
+      <pose>-61.3541 280.984 10.3422 0 -0 0</pose>
     </model>
     <model name='unit_sphere'>
-      <pose>11.1468 38.6855 0.5 0 -0 0</pose>
+      <pose>-19.0549 76.507 0.5 0 -0 0</pose>
       <link name='link'>
         <inertial>
           <mass>1</mass>
@@ -878,7 +463,7 @@
         <collision name='collision'>
           <geometry>
             <sphere>
-              <radius>0.5</radius>
+              <radius>0.499998</radius>
             </sphere>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -898,7 +483,7 @@
         <visual name='visual'>
           <geometry>
             <sphere>
-              <radius>0.5</radius>
+              <radius>0.499998</radius>
             </sphere>
           </geometry>
           <material>

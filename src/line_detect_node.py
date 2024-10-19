@@ -19,7 +19,7 @@ class LineDetectNode():
 
         self.bridge = CvBridge()
         
-        self.hsv_values = [[0, 0, 0], [6, 255, 37]]
+        self.hsv_values = [[0, 0, 0], [6, 255, 90]]
 
         rospy.Subscriber('/webcam/image_raw', Image, self.camera_callback)
         
@@ -66,6 +66,7 @@ class LineDetectNode():
         """
 
         draw_image = np.copy(self.cv_image)
+        draw_image2 = np.copy(self.cv_image)
 
         mask = self.color_filter(self.cv_image)
         
@@ -95,7 +96,9 @@ class LineDetectNode():
                 y2 += offset[1]
                 points.append([x1, y1])
                 points.append([x2, y2])
-            
+
+                cv.line(draw_image2, (x1,y1), (x2,y2), (0,0,255), 3, cv.LINE_AA)
+
             points = np.array(points, dtype= np.float32)
 
             [vx, vy, x, y] = cv.fitLine(points, cv.DIST_L2, 0, 0.01, 0.01)
@@ -111,6 +114,7 @@ class LineDetectNode():
 
             # Draw the approximated line on the image
             m = 50
+            
             cv.line(
                 draw_image,
                 (int(x - m * vx[0]), int(y - m * vy[0])),
@@ -118,10 +122,21 @@ class LineDetectNode():
                 (0, 255, 0),
                 2,
             )
-            cv.circle(draw_image, (int(x), int(y)), 2, (255, 0, 0), 3)
-            cv.imshow("Line Detection", draw_image)
 
-            center_x = center_x - 320 # 320 corrresponde ao meio da imagem em pixels
+            center_x = center_x[0] - 320 # 320 corrresponde ao meio da imagem em pixels
+
+            cv.circle(draw_image, (int(x), int(y)), 2, (0, 0, 255), 3)
+            cv.putText(draw_image, f'center_x = {center_x:0.2f}' ,(5,50),cv.FONT_HERSHEY_SIMPLEX, 1, (0, 0, 255), 2)
+            cv.putText(draw_image, f'angle = {angle:0.2f}' ,(5,100),cv.FONT_HERSHEY_SIMPLEX, 1, (0, 255, 0), 2)
+
+            cv.imshow("Line Detection", draw_image)
+            #canny_image = cv.cvtColor(canny_image, cv.COLOR_GRAY2BGR) 
+            #juntas = np.hstack((self.cv_image, canny_image, draw_image2, draw_image))
+            #cv.imshow('aa',draw_image2)
+            #cv.imshow("Processamento da imagem", juntas)
+            #cv.imwrite('gad.png', juntas)
+            #cv.imwrite('aa.png', draw_image)
+            
 
         if not math.isnan(center_x) and not math.isnan(angle):
             
